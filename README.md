@@ -4,9 +4,21 @@ CSE (AI & ML) at RNS Institute of Technology, Bengaluru, working toward applicat
 
 I build security tooling — steganography, applied cryptography, access control — and ship AI products alongside it. Google Cybersecurity Professional Certificate, all nine courses. Currently working through the PortSwigger Web Security Academy.
 
+### Featured project — QuietSend v3
+
+**Browser-based steganography with local file processing and authenticated encryption.**
+
+[Launch the app](https://ghostbyte-seven.vercel.app/) · [Source & documentation](https://github.com/tejas-ai/ghostbyte) · [Working screenshots](https://github.com/tejas-ai/ghostbyte#working-screenshots)
+
+Built with React, TypeScript, Vite, and the Web Crypto API. Includes guided Hide & Reveal, image and WAV carriers, AES-GCM-256, recipient public keys, file archives, and image comparison tools. No account or API key is required.
+
+[![QuietSend carrier studio](https://raw.githubusercontent.com/tejas-ai/ghostbyte/main/docs/launch/01-carrier-studio.png)](https://ghostbyte-seven.vercel.app/)
+
+Release validation: **26 automated tests, 14 browser regression cases**, and a successful encrypt → download → decrypt workflow on the public deployment. [Read the validation report and limitations](https://github.com/tejas-ai/ghostbyte/blob/main/review-reports/2026-09-27/FIXES_AND_VALIDATION.md).
+
 ### Security
 
-- **[ghostbyte](https://github.com/tejas-ai/ghostbyte)** — Client-side steganography suite. LSB embedding in images with AES-GCM encryption; nothing leaves the browser.
+- **[QuietSend / GhostByte](https://github.com/tejas-ai/ghostbyte)** — Browser-based steganography with AES-GCM encryption, image and WAV carriers, and local payload processing. [Live app](https://ghostbyte-seven.vercel.app/).
 - **[SecureShare-ABE](https://github.com/tejas-ai/SecureShare-ABE)** — File sharing built on attribute-based encryption: policy-driven access control and secret-key management.
 - **[Hide-and-Seek-Steganography-Suite](https://github.com/tejas-ai/Hide-and-Seek-Steganography-Suite)** — Final-year cybersecurity project. Working LSB encode/decode engine plus the full project report.
 - **[SENTINELL](https://github.com/tejas-ai/SENTINELL-v2.5.0-live)** — Deepfake audio forensics. Spectral artifacts and prosody analysis, with PDF report export.
